@@ -410,7 +410,7 @@ In that case, CodeTotal stops listening to the pubsub channel, as no more messag
 List of errors:
 
 - `missingAnalysisType`: Missing type (snippet, file or repository)
-- `gitCloneError`: Unable to clone the repository (probably not existing or not reachable)
+- `gitCloneError`: Unable to clone the repository due to non-existent or unreachable repository.
 - `uploadedFileNotFound`: Unable to find file(s) that were supposed to be uploaded by a previous HTTP call to `/upload-file`
 - `snippetGuessError`: Unable to automatically detect the language of a code snippet
 - `snippetBuildError`: Unable to find a file extension for the guessed snipper language
