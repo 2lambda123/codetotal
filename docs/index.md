@@ -12,6 +12,14 @@ description: Analyzes any snippet, file, or repository to detect possible securi
 
 # CodeTotal
 
+## Troubleshooting Failed GitHub Actions Runs
+
+If the GitHub Actions run failed, follow these troubleshooting steps to identify and resolve the issue:
+1. Check the GitHub Actions logs to identify the specific error messages.
+2. Look for common issues such as syntax errors, missing dependencies, or configuration problems.
+3. Resolve the identified issues and re-run the GitHub Actions workflow.
+4. If the issues persist, seek help from the community or maintainers for further assistance.
+
 [![GitHub release](https://img.shields.io/github/v/release/oxsecurity/codetotal?sort=semver)](https://github.com/oxsecurity/codetotal/releases)
 [![GitHub stars](https://img.shields.io/github/stars/oxsecurity/codetotal?cacheSeconds=3600)](https://github.com/oxsecurity/codetotal/stargazers/)
 [![MegaLinter](https://github.com/oxsecurity/codetotal/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/oxsecurity/codetotal/actions?query=workflow%3AMegaLinter+branch%3Amain)
