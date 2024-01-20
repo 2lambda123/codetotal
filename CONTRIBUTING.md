@@ -15,9 +15,9 @@
 
 - Clone this repo
 - Run `npm i` to install dependencies
-- Start megalinter server `npm run start:megalinter`
-- Run `npm start`
-- Open [`codetotal app`](http://localhost:3000)
+- Start the MegaLinter server using the following command: `npm run start:megalinter`. This will set up the MegaLinter server which is required for code linting.
+- To start the application, run `npm start`.
+- Once the application is started, you can open the [`CodeTotal app`](http://localhost:3000) in your web browser.
 
 ## Available Scripts
 
@@ -29,7 +29,7 @@
 
 ## Config
 
-Add a `.env` file in the root of the project.  
+To configure the project, create a `.env` file in the root of the project and add the following environment variables:  
 Only variables starting with the `CODETOTAL_` prefix will be injected into the frontend bundle.
 
 ```ini
@@ -410,7 +410,7 @@ In that case, CodeTotal stops listening to the pubsub channel, as no more messag
 List of errors:
 
 - `missingAnalysisType`: Missing type (snippet, file or repository)
-- `gitCloneError`: Unable to clone the repository (probably not existing or not reachable)
+- `gitCloneError`: Unable to clone the repository due to non-existent or unreachable repository.
 - `uploadedFileNotFound`: Unable to find file(s) that were supposed to be uploaded by a previous HTTP call to `/upload-file`
 - `snippetGuessError`: Unable to automatically detect the language of a code snippet
 - `snippetBuildError`: Unable to find a file extension for the guessed snipper language
